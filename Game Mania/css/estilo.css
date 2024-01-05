@@ -1,0 +1,206 @@
+/*cabeçalho*/
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.container {
+    width: 100%
+      }
+
+.navegador {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    background-color: #007575A6; 
+
+        }
+
+.ajuste {
+    padding: 0;
+    margin: 0;
+    border: black;
+}
+
+.ajustanav {
+margin-right: auto;
+margin-left: auto;
+float:inline-start;
+display: flex;
+text-align: center;
+
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cor_topo {
+        background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+/* responsive-dey */
+@media(max-width:770px) {
+    .banda4 {
+        display: none;
+    }
+}
+  
+@media(max-width:560px) {
+    .banda5 {
+        display: none;
+    }
+}
+
+/*Conteudo principal*/
+
+main {
+    min-height: 100%;  
+}
+
+.borda2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+/*banner*/
+
+#section-banners img{
+    height: 500px;
+}
+
+/*Produtos vendidos*/
+
+#section-vendidos {
+    text-align: center
+    
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+#section-vendidos .preco {
+    color:  #007575A6;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ajustabanner {
+   background-color: black;
+}
+
+
+
+.ajustainter {
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+.borda3 {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+@media(max-width:600px) {
+    .banda61 {
+        display: none;
+    }
+}
+  
+@media(max-width:1000px) {
+    .banda6 {
+        display: none;
+    }
+}
+  
+@media(max-width:1300px) {
+    .banda7 {
+        display: none;
+    }
+}
+
+@media(max-width:1600px) {
+    .banda8 {
+        display: none;
+    }
+}
+
+@media(max-width:1900px) {
+    .banda9 {
+        display: none;
+    }
+}
+
+/*Rodapé*/
+
+
+footer {
+    text-align: center;
+    background-color: #007575A6; 
+    
+}
+
+footer p {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+}
+
+
+/*Botão Voltar topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
